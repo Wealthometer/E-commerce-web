@@ -1,7 +1,10 @@
 "use client"
 
-import  from "../backend/server"
+// import from "../backend/server.js"
 
-export default function SyntheticV0PageForDeployment() {
-  return < />
+import App from "./src/App"
+import './globals.css'
+
+export default function PageForDeployment() {
+  return <App />
 }
